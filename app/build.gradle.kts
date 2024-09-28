@@ -7,6 +7,7 @@ android {
     namespace = "com.example.firstpartial"
     compileSdk = 34
 
+
     defaultConfig {
         applicationId = "com.example.firstpartial"
         minSdk = 24
@@ -15,6 +16,7 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
     }
 
     buildTypes {
@@ -34,6 +36,7 @@ android {
         jvmTarget = "1.8"
     }
 }
+
 
 dependencies {
 
